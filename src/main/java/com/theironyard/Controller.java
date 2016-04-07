@@ -14,7 +14,7 @@ import java.util.HashSet;
 @RestController
 public class Controller {
     static final String SAMPLE_URL = "http://gturnquist-quoters.cfapps.io/api/random";
-
+    //example RESTful call
     @RequestMapping(path = "/quote", method = RequestMethod.GET)
     public HashMap getQuote() {
         RestTemplate query = new RestTemplate();
